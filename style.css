@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+
+.navbar-inverse {
+    background-color: #1c4966;
+}
+
+a:hover {
+    color: orange;
+  }
+
+
+
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #003300
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFFFFF
+}
+
+
+.h2, h2{
+    font-size: 50px;
+    position: relative;
+    margin-top: 150px;
+}
+
+div.front{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.darkblue{
+    
+        font-size: 50px;
+        background-color: #3081b3;
+        
+
+}
+
+
+
+.white{
+    color:#FFFFFF
+}
+
+.gal{
+    float: right;
+position: relative;
+bottom: 200px;
+left: -179px;
+}
+
+@media only screen and (max-width: 600px) {
+    .gal{
+        float: none;
+        position: relative;
+        bottom: 0;
+        left: 0px;
+        top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.front {
+    width: 70%;
+    margin-left: 11px;
+}
+}
