@@ -69,12 +69,14 @@ a:hover {
 .h2, h2{
     font-size: 50px;
     position: relative;
-    margin-top: 150px;
+    
 }
 
-div.front{
+.front {
     width: 400px;
     margin-left: 100px;
+    position: relative;
+    top: 50px;
 }
 
 .darkblue{
@@ -86,16 +88,14 @@ div.front{
 }
 
 
-
 .white{
     color:#FFFFFF
 }
 
-.gal{
+.gal {
     float: right;
-position: relative;
-bottom: 200px;
-left: -179px;
+    bottom: 12px;
+    right: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,8 +110,15 @@ left: -179px;
 
 
 @media only screen and (max-width: 600px) {
-    div.front {
+    .front {
     width: 70%;
     margin-left: 11px;
 }
+}
+
+
+
+.btn-primary{
+    margin-left: 5%;
+    float: right;
 }
